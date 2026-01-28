@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hubspot": {
+      "command": "hs",
+      "args": ["mcp", "start"]
+    }
+  }
+}
