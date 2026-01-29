@@ -80,24 +80,11 @@
 
 ## PERSONA 4: Equity Research / Sellside Analyst
 
-**Description:** Analyst in equity research team, either part of a larger institution (bank) or small independent shop. Research is very fundamental and must be kept updated in a timely manner for clients.
-
-**Challenges:**
-- Need ready updates for covered companies whenever earnings comes around
-- Must include as much relevant data and KPIs as possible for clients
-- Models are complicated with multiple sheets feeding into each other
-- Difficult to update entirely when Ks and Qs come out
-- Accuracy is critical — incorrect numbers damage image with clients and superiors
-
-**Requirements:**
-- Highly accurate updating tool that handles complex KPIs reported in multitudes of formats
-
-**Key Quote:**
-> "Part of my job requires me to check every single number, and provide a source for every single one. It is very time consuming, but my superiors don't mind if I have to stay late, so long as every number can be attributed."
+> **NOTE: NOT IN SCOPE.** Daloopa's current outreach focuses exclusively on buy-side accounts. Sellside is excluded from all Apollo sequences and target account lists. Keeping this persona for reference only.
 
 **Current Customers:** FTPartners
 
-**Sample Prospects:** JP Morgan, BoA, Goldman Sachs, Morgan Stanley, Jefferies, B Riley, Citi, Deutsche, Credit Suisse, Evercore, Oppenheimer
+**Sample Prospects (out of scope):** JP Morgan, BoA, Goldman Sachs, Morgan Stanley, Jefferies
 
 ---
 
