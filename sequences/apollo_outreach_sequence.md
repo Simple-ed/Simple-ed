@@ -97,7 +97,7 @@ Split 50/50 in Apollo. After 200+ sends per variant, compare **reply rates** (no
 
 {{first_name}} — saw you're covering {{custom1}} at {{company}}.
 
-Curious how you handle model updates after earnings. Most analysts I talk to at similar firms spend their Monday mornings manually pulling data from Friday's filings into Excel. Some are updating 50-80 models a quarter and losing hours to copy-paste.
+Curious how you handle model updates during earnings season. Most analysts I talk to are working nights and weekends just to keep up — updating 50-80 models a quarter, pulling data from filings manually, losing hours to copy-paste while the backlog keeps growing.
 
 We built something that automates that entirely — structured data from SEC filings, earnings, and supplements flows directly into your existing Excel models. No reformatting, no manual entry.
 
@@ -133,13 +133,13 @@ Happy to show you a live demo on one of your current coverage names. Would that 
 Hi {{first_name}} — saw you're covering {{custom1}} at {{company}}. I work with analysts at funds like yours on automating the tedious parts of model maintenance. Would love to connect.
 
 ### Step 4 — Auto Email (Day 8)
-**Subject:** the monday morning earnings backlog
+**Subject:** the earnings season grind
 
-{{first_name}} — most analysts I talk to describe the same problem: earnings season hits, and suddenly you're buried in filings across your entire coverage universe, updating models one-by-one.
+{{first_name}} — most analysts I talk to describe the same problem: earnings season hits, and suddenly you're working nights and weekends, buried in filings across your entire coverage universe, updating models one-by-one.
 
-We cover 4,000+ public companies. Structured data delivered into Excel in whatever format your models already use. You sit down Monday morning and everything is current.
+We cover 4,000+ public companies. Structured data delivered into Excel in whatever format your models already use. Your models stay current without the weekend grind.
 
-If model maintenance is eating into your analysis time, I'd love to show you how we fix that.
+If model maintenance is eating into your nights and weekends, I'd love to show you how we fix that.
 
 {{sender_first_name}}
 
@@ -163,7 +163,7 @@ If model maintenance is eating into your analysis time, I'd love to show you how
 
 {{first_name}} — looked at {{company}}'s ADV. With {{custom3}}, your team is covering a lot of ground.
 
-Curious how much of your analysts' week goes to model maintenance vs. actual analysis. At most funds I talk to, the answer is uncomfortable — analysts spending 30-40% of their time pulling data from filings into Excel instead of generating insight.
+Curious how much of your analysts' time goes to model maintenance vs. actual analysis — especially during earnings season. At most funds I talk to, the answer is uncomfortable: analysts working nights and weekends pulling data from filings into Excel instead of generating insight.
 
 We automate that entirely. Structured fundamental data from SEC filings, earnings, and supplements delivered directly into your team's existing models. No reformatting. Your analysts get that time back for the work that actually moves the needle.
 
@@ -175,7 +175,7 @@ Would a quick call make sense?
 
 {{first_name}} — looked at {{company}}'s ADV. With {{custom3}}, your team is covering serious ground.
 
-We help funds like yours give analysts back the 30-40% of their week currently lost to pulling filing data into models manually.
+We help funds like yours eliminate the nights-and-weekends grind during earnings — your analysts' model updates happen automatically instead of manually.
 
 Open to a quick call to see if it's relevant?
 
@@ -467,9 +467,9 @@ For each sequence, add steps matching the templates above:
 Set wait days between steps as noted (Day 1, Day 3, Day 5, etc.)
 
 **Timing:**
-- **Emails:** Schedule for 7:00-8:30 AM ET or 6:00-7:00 PM ET
+- **Emails:** Weekdays 7:00-8:30 AM ET or 6:00-7:00 PM ET. During earnings season: Saturday 8-10 AM or Sunday 6-8 PM ET. **Avoid Monday morning** — they're already buried.
 - **Call tasks:** 11:00 AM - 2:00 PM ET (analyst downtime window). Fridays are bonus.
-- **LinkedIn:** Before 8:30 AM or after 6:00 PM — analysts don't browse LinkedIn at their desk.
+- **LinkedIn:** **Weekends are #1** — Saturday/Sunday mornings. Weekday fallback: before 8:30 AM or after 6:00 PM. Analysts don't browse LinkedIn at their desk.
 
 ### Step 3: Personalize Before Enrolling
 **This is critical.** Before adding any contact to a sequence:
