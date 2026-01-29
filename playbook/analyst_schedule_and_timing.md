@@ -35,12 +35,11 @@
 - Analysts don't browse LinkedIn at their desk
 
 ### Email
-- Email is primarily for **BRANDING** — it doesn't get opened much
 - Analysts skim through ~1,000 emails per day
-- **Recommend putting "Daloopa" in the subject line** so they see the brand as they skim
-- Subject line examples:
-  - "Daloopa dusts off stale models fast!"
-  - Keep it punchy and brand-forward
+- Subject lines must earn the open — use curiosity, personalization, or a relevant question
+- Keep subject lines short (3-7 words), lowercase, conversational
+- Reference something specific to the prospect (their sector, their firm, their workflow)
+- Never lead with your company name in the subject line — that signals a sales email and gets skipped
 
 ---
 
@@ -49,8 +48,8 @@
 ### Email Steps (Auto & Manual)
 - Schedule sends for **7:00 AM - 8:30 AM** (hits inbox before they arrive, near top of stack)
 - Or **6:00 PM - 7:00 PM** (catches them as they wind down, less inbox noise)
-- Always include **"Daloopa"** in the subject line for brand recognition
-- Emails are a branding play — don't expect high open rates, optimize for subject line visibility
+- Subject lines should be short, curiosity-driven, and personalized — never lead with your company name
+- Optimize for open rate: reference the prospect's firm, sector, or a relevant pain point
 
 ### Phone Call Tasks
 - Set call task windows for **11:00 AM - 2:00 PM ET**
