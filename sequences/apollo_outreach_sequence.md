@@ -45,10 +45,38 @@ For every prospect, gather the following before they enter a sequence:
 
 ---
 
+## A/B Testing Strategy
+
+Apollo supports A/B testing on email steps. For every **Step 1** (opening email), test three variants:
+
+- **Variant A:** Curiosity / context-driven (personalized to prospect's situation)
+- **Variant B:** `Meeting Request | {{sender_first_name}} // {{first_name}}` (direct, professional, pattern-interrupt)
+- **Variant C:** Internal camo — 2 words, Title Case, looks like an internal email (Lavender data: 60% more opens)
+
+Split evenly in Apollo. After 200+ sends per variant, compare open rates AND reply rates. Kill the losers, scale the winner.
+
+For follow-up emails (Steps 2+), keep subject lines as-is — they thread off the opener.
+
+### Research-Backed Subject Line Rules (from Lavender, Berman, Braun, Coleman, 2025 data):
+- **2 words is optimal** — 60% more opens than 5-word subjects (Lavender, millions of emails analyzed)
+- **Title Case** outperforms lowercase by 30% (Lavender)
+- **No questions** in subject lines — hurts open rate by 56% (Lavender)
+- **No numbers** in subject lines — hurts open rate by 46% (Lavender)
+- **No punctuation** — hurts open rate by 36% (Lavender)
+- **First name in subject is debated** — Lavender says -12% replies, but 2025 aggregated data says +31% opens. Test both.
+- **"Internal camo"** — make subject look like it came from inside their company, not a sales email (Lavender)
+- **First line of body matters more than subject** for reply rates (Berman)
+- **Best send time:** Thursday 9-11 AM ET = 44% open rate (2025 data)
+- **"voicemail"** as a subject gets 40% response when paired with an actual voicemail left (Braun)
+
+---
+
 ## SEQUENCE 1: Analysts
 
 ### Step 1 — Auto Email (Day 1)
-**Subject:** {{first_name}}, quick question about your models
+**Subject A:** {{first_name}}, quick question about your models
+**Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
+**Subject C:** Model Updates
 
 Hi {{first_name}},
 
@@ -108,7 +136,9 @@ All the best,
 ## SEQUENCE 2: Portfolio Managers (PMs)
 
 ### Step 1 — Auto Email (Day 1)
-**Subject:** your analysts' time
+**Subject A:** your analysts' time
+**Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
+**Subject C:** Analyst Capacity
 
 Hi {{first_name}},
 
@@ -169,7 +199,9 @@ I understand timing matters. If your team ever wants to explore automating the m
 ## SEQUENCE 3: Directors of Research
 
 ### Step 1 — Auto Email (Day 1)
-**Subject:** expanding coverage without adding headcount
+**Subject A:** expanding coverage without adding headcount
+**Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
+**Subject C:** Research Coverage
 
 Hi {{first_name}},
 
@@ -228,7 +260,9 @@ All the best,
 ## SEQUENCE 4: Heads of AI / Technology
 
 ### Step 1 — Auto Email (Day 1)
-**Subject:** {{company}}'s data infrastructure
+**Subject A:** {{company}}'s data infrastructure
+**Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
+**Subject C:** Data Pipeline
 
 Hi {{first_name}},
 
@@ -291,7 +325,9 @@ If AI-driven data infrastructure is ever a priority at {{company}}, I'd welcome 
 > **Why separate?** Quant and Macro professionals don't build bottom-up fundamental models the way traditional L/S equity analysts do. They care about structured data feeds, API access, signal generation, and systematic integration — not Excel model updates. The messaging must reflect their workflow.
 
 ### Step 1 — Auto Email (Day 1)
-**Subject:** replacing your internal filing parser
+**Subject A:** replacing your internal filing parser
+**Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
+**Subject C:** Filing Parser
 
 Hi {{first_name}},
 
