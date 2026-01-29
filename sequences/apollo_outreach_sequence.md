@@ -163,9 +163,9 @@ If model maintenance is eating into your nights and weekends, I'd love to show y
 
 {{first_name}} — looked at {{company}}'s ADV. With {{custom3}}, your team is covering a lot of ground.
 
-Curious how much of your analysts' time goes to model maintenance vs. actual analysis — especially during earnings season. At most funds I talk to, the answer is uncomfortable: analysts working nights and weekends pulling data from filings into Excel instead of generating insight.
+Curious how much of your analysts' output is going to model maintenance vs. actual analysis. At most funds I talk to, the ratio is off — too much time pulling data from filings into Excel, not enough time generating the insight that drives decisions.
 
-We automate that entirely. Structured fundamental data from SEC filings, earnings, and supplements delivered directly into your team's existing models. No reformatting. Your analysts get that time back for the work that actually moves the needle.
+We automate the model update workflow entirely. Structured fundamental data from SEC filings, earnings, and supplements delivered directly into your team's existing models. No reformatting. More analyst throughput without adding headcount.
 
 Would a quick call make sense?
 
@@ -175,7 +175,7 @@ Would a quick call make sense?
 
 {{first_name}} — looked at {{company}}'s ADV. With {{custom3}}, your team is covering serious ground.
 
-We help funds like yours eliminate the nights-and-weekends grind during earnings — your analysts' model updates happen automatically instead of manually.
+We help funds like yours get more analyst throughput without adding headcount — model updates after filings and earnings happen automatically instead of manually.
 
 Open to a quick call to see if it's relevant?
 
@@ -204,7 +204,7 @@ Hi {{first_name}}, this is {{sender_first_name}} from Daloopa. I sent a couple o
 
 {{first_name}} — curious how your team currently handles model updates after earnings.
 
-If it's still largely manual, there's a way to get that time back for your analysts. Happy to do a no-pressure walkthrough with whoever runs the models.
+If it's still largely manual, there's a way to shift that capacity back to analysis and idea generation. Happy to do a no-pressure walkthrough with whoever runs the models.
 
 {{sender_first_name}}
 
