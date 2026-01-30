@@ -1,9 +1,10 @@
 # Daloopa Outreach Sequences — Investment Firms
-## Target Personas: Analyst, PM, Director of Research, Head of AI, Quant/Macro (separate)
+## 7 Sequences: L/S Analyst, Long Biased Analyst, Mutual Fund Analyst, PM, Director of Research, Head of AI, Quant/Macro
 
 > **Important:** Quant and Macro personas are EXCLUDED from the standard fundamental sequences below.
 > They require a differentiated approach — see SEQUENCE 5 at the bottom.
 > Per internal playbook: any title containing "Quant" or "Macro" goes to the Quant/Macro sequence only.
+> Sellside is **OUT OF SCOPE** — buy-side accounts only.
 
 ---
 
@@ -86,10 +87,12 @@ Split 50/50 in Apollo. After 200+ sends per variant, compare **reply rates** (no
 
 ---
 
-## SEQUENCE 1: Analysts
+## SEQUENCE 1A: Long/Short Hedge Fund Analysts
+
+> **Target:** Analysts/Associates at multi-manager pods and L/S equity hedge funds. High model count (50-80), high turnover, trades around earnings. Pain = speed and volume during earnings season.
 
 ### Step 1 — Auto Email (Day 1)
-**Subject A:** {{first_name}}, quick question about your models
+**Subject A:** {{first_name}}, quick question about earnings season
 **Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
 **Subject C:** Model Updates
 
@@ -97,9 +100,9 @@ Split 50/50 in Apollo. After 200+ sends per variant, compare **reply rates** (no
 
 {{first_name}} — saw you're covering {{custom1}} at {{company}}.
 
-Curious how you handle model updates during earnings season. Most analysts I talk to are working nights and weekends just to keep up — updating 50-80 models a quarter, pulling data from filings manually, losing hours to copy-paste while the backlog keeps growing.
+Curious how you handle model updates when 30+ names report in the same week. Most L/S analysts I talk to are working nights and weekends during earnings — pulling data from filings manually, updating models one-by-one, losing hours to copy-paste while the backlog keeps growing and your PM needs the numbers yesterday.
 
-We built something that automates that entirely — structured data from SEC filings, earnings, and supplements flows directly into your existing Excel models. No reformatting, no manual entry.
+We built something that automates that entirely — structured data from SEC filings, earnings, and supplements flows directly into your existing Excel models. No reformatting, no manual entry. Your models update as filings hit.
 
 Worth a 15-minute look?
 
@@ -107,7 +110,7 @@ Worth a 15-minute look?
 
 **Body Style B (3-Line Sniper):**
 
-{{first_name}} — saw you're covering {{custom1}} at {{company}}.
+{{first_name}} — covering {{custom1}} at {{company}}, curious how you keep 50+ models current when half your sector reports in the same week.
 
 We automate the model update workflow after earnings — structured data from filings flows directly into your existing Excel models, no manual entry.
 
@@ -125,19 +128,19 @@ Here's what it looks like in practice:
 - 10-K/10-Q filed → new data flows into your existing templates
 - No copy-paste, no manual errors, no lag
 
-Happy to show you a live demo on one of your current coverage names. Would that be useful?
+Your PM gets updated numbers faster. You get your weekends back during earnings season. Happy to show you a live demo on one of your current coverage names.
 
 {{sender_first_name}}
 
 ### Step 3 — LinkedIn Connection Request (Day 5)
-Hi {{first_name}} — saw you're covering {{custom1}} at {{company}}. I work with analysts at funds like yours on automating the tedious parts of model maintenance. Would love to connect.
+Hi {{first_name}} — saw you're covering {{custom1}} at {{company}}. I work with L/S analysts at pods like yours on automating model updates during earnings. Would love to connect.
 
 ### Step 4 — Auto Email (Day 8)
 **Subject:** the earnings season grind
 
-{{first_name}} — most analysts I talk to describe the same problem: earnings season hits, and suddenly you're working nights and weekends, buried in filings across your entire coverage universe, updating models one-by-one.
+{{first_name}} — most L/S analysts I talk to describe the same problem: earnings season hits, 30 names report in one week, and suddenly you're working nights and weekends updating models one-by-one while your PM is already asking for the post-view.
 
-We cover 4,000+ public companies. Structured data delivered into Excel in whatever format your models already use. Your models stay current without the weekend grind.
+We cover 4,000+ public companies. Structured data delivered into Excel in whatever format your models already use. Your postviews go out faster. Your models stay current without the weekend grind.
 
 If model maintenance is eating into your nights and weekends, I'd love to show you how we fix that.
 
@@ -147,6 +150,144 @@ If model maintenance is eating into your nights and weekends, I'd love to show y
 **Subject:** one more thought
 
 {{first_name}} — if automating model updates ever becomes a priority at {{company}}, I'm an easy person to reach.
+
+{{sender_first_name}}
+
+---
+
+## SEQUENCE 1B: Long Biased Hedge Fund Analysts
+
+> **Target:** Analysts/Associates at concentrated, long-biased, growth-oriented funds (Tiger Cubs, etc.). Fewer models but much deeper — complex multi-sheet builds. Pain = building new models and updating complex existing ones across industries.
+
+### Step 1 — Auto Email (Day 1)
+**Subject A:** {{first_name}}, building models at {{company}}
+**Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
+**Subject C:** New Coverage
+
+**Body Style A (PAS):**
+
+{{first_name}} — saw you're covering {{custom1}} at {{company}}.
+
+Curious how long it takes your team to build a new model from scratch when you're exploring a new name. Most analysts at concentrated funds tell me the same thing — they want models as deep and complex as possible, but that makes them brutal to build and even harder to update when earnings come out across different industries.
+
+We automate the data layer. Structured financials from SEC filings, earnings, and supplements flow directly into Excel — including KPIs, segment breakdowns, and footnote data that nobody else pulls. Your models can be as complex as you want without the update penalty.
+
+Worth 15 minutes to see it?
+
+{{sender_first_name}}
+
+**Body Style B (3-Line Sniper):**
+
+{{first_name}} — saw you're covering {{custom1}} at {{company}}. Curious how long it takes to build a new model from scratch when your PM wants to explore a name.
+
+We deliver structured financials — including KPIs, segments, and footnote data — directly into Excel, so you can build deep models without the update penalty.
+
+Worth a quick walkthrough?
+
+{{sender_first_name}}
+
+### Step 2 — Auto Email (Day 3)
+**Subject:** re: your models at {{company}}
+
+{{first_name}} — quick follow-up.
+
+Here's what analysts at concentrated funds use us for:
+- **New model builds** — pull historical financials + KPIs for a new name in minutes, not days
+- **Ongoing updates** — earnings data flows into your existing complex models automatically
+- **Industry context** — 47 industry comp sheets to help you map competitors quickly
+- **Deep data** — segment breakdowns, non-GAAP reconciliations, footnote KPIs that other platforms miss
+
+Happy to demo on one of your current coverage names. Would that be useful?
+
+{{sender_first_name}}
+
+### Step 3 — LinkedIn Connection Request (Day 5)
+Hi {{first_name}} — saw you're covering {{custom1}} at {{company}}. I work with analysts at concentrated funds on building deeper models faster. Would love to connect.
+
+### Step 4 — Auto Email (Day 8)
+**Subject:** the model building problem
+
+{{first_name}} — the analysts I talk to at concentrated funds all describe the same tradeoff: you want deep, complex models, but deep models take days to build and are painful to update. So sometimes you wait for next quarter instead of building the industry model your PM actually needs.
+
+We cover 4,000+ tickers with structured data — KPIs, segments, non-GAAP, footnotes — delivered directly into Excel. New model builds that used to take days take hours. Updates that used to take hours happen automatically.
+
+If model building speed ever becomes a bottleneck at {{company}}, I'd love to show you what we've built.
+
+{{sender_first_name}}
+
+### Step 5 — Manual Email (Day 14)
+**Subject:** one more thought
+
+{{first_name}} — if faster model builds or automated updates ever becomes a priority at {{company}}, I'm an easy person to reach.
+
+{{sender_first_name}}
+
+---
+
+## SEQUENCE 1C: Mutual Fund / Long Only Analysts
+
+> **Target:** Analysts at mutual funds and long-only asset managers. Lower model intensity, often working off sell-side models. Pain = limited resources vs. HF peers, updating inherited/sell-side models, leveling the playing field.
+
+### Step 1 — Auto Email (Day 1)
+**Subject A:** {{first_name}}, leveling the playing field
+**Subject B:** Meeting Request | {{sender_first_name}} // {{first_name}}
+**Subject C:** Research Tools
+
+**Body Style A (PAS):**
+
+{{first_name}} — saw you're covering {{custom1}} at {{company}}.
+
+The mutual fund analysts I talk to all describe the same frustration — hedge funds have armies of analysts and tech budgets to match, and you're expected to compete with a fraction of those resources. On top of that, updating sell-side models that someone else built is its own kind of painful.
+
+We built a tool that automates financial data delivery into your existing Excel models — whether you built them or inherited them from the sell side. Structured data from SEC filings and earnings, no manual entry. It's the kind of resource that used to be reserved for $10B+ hedge funds.
+
+Worth 15 minutes to see if it's relevant?
+
+{{sender_first_name}}
+
+**Body Style B (3-Line Sniper):**
+
+{{first_name}} — covering {{custom1}} at {{company}}. Curious if you're still manually updating sell-side models after earnings.
+
+We automate the data layer — structured financials from filings flow directly into your existing Excel models, regardless of format. The kind of resource that used to require a hedge fund budget.
+
+Open to a quick walkthrough?
+
+{{sender_first_name}}
+
+### Step 2 — Auto Email (Day 3)
+**Subject:** re: your {{custom1}} models
+
+{{first_name}} — quick follow-up.
+
+Here's what mutual fund teams use us for:
+- **Updating sell-side models** — data flows into whatever Excel format you're working in, even inherited models
+- **Building comp sheets** — 47 pre-built industry comp sheets to benchmark against peers
+- **Earnings season coverage** — keep models current without working late
+- **4,000+ tickers** — broader coverage than most sell-side desks
+
+Would it help to see it in action on one of your current names?
+
+{{sender_first_name}}
+
+### Step 3 — LinkedIn Connection Request (Day 5)
+Hi {{first_name}} — saw you're covering {{custom1}} at {{company}}. I work with analysts at asset managers on automating model updates and closing the resource gap with the hedge fund side. Would love to connect.
+
+### Step 4 — Auto Email (Day 8)
+**Subject:** the resource gap
+
+{{first_name}} — one thing I hear constantly from mutual fund analysts: "I wish I had the same tools as the hedge fund guys."
+
+We provide structured fundamental data — financials, KPIs, segment breakdowns — delivered directly into your Excel models. 4,000+ tickers, 47 industry comp sheets. It's the same data infrastructure used by top-tier L/S funds, available at a fraction of the cost.
+
+If closing that resource gap is something you think about, I'd love to show you what we've built.
+
+{{sender_first_name}}
+
+### Step 5 — Manual Email (Day 14)
+**Subject:** one more thought
+
+{{first_name}} — if automating model updates or expanding your coverage tools ever becomes a priority at {{company}}, I'm an easy person to reach.
 
 {{sender_first_name}}
 
@@ -440,12 +581,22 @@ If any of that would be useful, just let me know a ticker and I'll pull it toget
 
 ---
 
-## Apollo Filter Notes for Quant/Macro Sequence
+## Apollo Filter Notes
 
-When adding contacts to this sequence in Apollo, use these filters:
+### Analyst Sequence Routing (1A / 1B / 1C):
+- **Sequence 1A (L/S Analyst):** Target accounts = multi-manager pods, L/S equity hedge funds, market neutral funds. Look for: Millennium, Balyasny, Point72, Citadel/Surveyor, ExodusPoint, Cinctive, Crestline, Schonfeld. High model count, high turnover.
+- **Sequence 1B (Long Biased Analyst):** Target accounts = concentrated, long-biased, growth-oriented funds. Look for: Tiger Global, Lone Pine, Coatue, Viking, Whale Rock, Altimeter, Dragoneer. Fewer models, deeper complexity.
+- **Sequence 1C (Mutual Fund Analyst):** Target accounts = mutual funds, long-only asset managers. Look for: Franklin Templeton, Fidelity, Vanguard, Invesco, BlackRock, Capital Group, T. Rowe Price, Schwab, Thrivent. Lower model intensity, sell-side model users.
+- **If unclear:** Default to 1A (L/S) for hedge funds, 1C for asset managers.
+
+### Quant/Macro Sequence (5):
 - **Job Title CONTAINS:** Quant, Quantitative, Macro, Systematic, Data Scientist, Data Engineer, Quant Researcher, Quant Developer, Quantitative Analyst, Quantitative PM
-- **EXCLUDE from** Sequences 1-4 (Analyst, PM, Director of Research, Head of AI)
-- These contacts should ONLY go into this Quant/Macro sequence
+- **EXCLUDE from** Sequences 1A-4 (all Analyst, PM, Director of Research, Head of AI sequences)
+- These contacts should ONLY go into the Quant/Macro sequence
+
+### Head of AI Sequence (4):
+- **Job Title CONTAINS:** Head of AI, CTO, Chief Data Officer, CDO, Head of Data, VP Technology, Head of Technology, Head of Data Engineering, Head of Research Infrastructure, Head of Data Science
+- **EXCLUDE from** Quant/Macro sequence even if at a quant fund — route to Sequence 4
 
 ---
 
@@ -453,7 +604,7 @@ When adding contacts to this sequence in Apollo, use these filters:
 
 ### Step 1: Create Sequences
 1. Go to **Engage → Sequences → + New Sequence**
-2. Create **5 sequences** (one per persona above)
+2. Create **7 sequences** (1A L/S Analyst, 1B Long Biased Analyst, 1C Mutual Fund Analyst, 2 PM, 3 DoR, 4 Head of AI, 5 Quant/Macro)
 3. For each sequence, create **2 variants** of Step 1 (Body Style A and Body Style B)
 4. Name them accordingly
 

@@ -130,15 +130,81 @@
 
 ---
 
+## PERSONA 7: Quantitative Researcher / Systematic Analyst
+**AKA:** Quantitative Analyst, Quant Researcher, Data Scientist (at hedge fund), Quantitative PM, Systematic Trader, Macro Quant Strategist, Quantitative Developer
+
+**Description:** Quantitative researchers at buy-side firms develop and backtest systematic trading strategies using mathematical models, ML, and statistical analysis. Unlike fundamental analysts who rely on qualitative judgment, quants systematically aggregate large datasets to identify predictive signals — all information must be structured, programmatic, and free from subjective interpretation. They combine fundamental data (earnings, financial statements, macro indicators) with technical signals to build multi-layered trading models deployed at scale.
+
+**Challenges:**
+- Point-in-time data integrity — vendors often backfill restatements, creating look-ahead bias that invalidates backtests and destroys model reliability
+- SEC filing parsing and automation — manual extraction from 10-Ks, 10-Qs, and 8-Ks is error-prone; building internal EDGAR scrapers is resource-intensive and requires constant maintenance
+- Data normalization across vendors — inconsistent taxonomies, field names, and calculation methodologies require extensive cleaning pipelines
+- Latency in filing alerts — delays in new filing notifications cause missed systematic trading signals
+- Any manual workflow breaks systematic strategies and introduces inconsistency
+- Legacy platforms designed for terminal users (not API consumers) create friction for quant infrastructure integration
+
+**Requirements:**
+- API-first delivery with clean, documented endpoints (REST, Python, R compatible)
+- Structured, normalized data with standardized taxonomy across all tickers and time periods
+- Point-in-time snapshots — only information available at historical dates, no backfill contamination
+- Real-time webhooks for new SEC filings and data updates
+- Zero manual workflows — 100% automation from data ingestion to model deployment
+- 99%+ accuracy to eliminate data quality as a source of alpha decay
+
+**Key Quote:**
+> "Look-ahead bias is the silent killer. If my backtest shows alpha but the vendor gave me information that wasn't available in 2019, I've wasted months on a model that will fail in production. I need point-in-time integrity, automated filing alerts, and API delivery — no spreadsheets, no guessing whether a restatement corrupted my training set."
+
+**Current Alternatives:** Bloomberg API (expensive, terminal-centric), Capital IQ/Compustat (inconsistent point-in-time handling), FactSet APIs (comprehensive but costly), internal EDGAR scrapers (resource-intensive), WRDS academic datasets (limited real-time), custom Python parsers via sec-api.io
+
+**Sample Prospects:** Two Sigma, D.E. Shaw, AQR Capital Management, Bridgewater Associates, Citadel (Quantitative Strategies), Man Group, Millennium (systematic pods), PDT Partners, Voleon Group, WorldQuant, Element Capital
+
+**Daloopa Use Case:** API-first with 8 endpoints delivers structured data directly into Python/R pipelines. Webhook alerts on new SEC filings enable zero-latency signal generation. 1,200+ standardized taxonomy provides consistent field definitions across 5,000+ tickers. 99%+ accuracy and point-in-time data integrity eliminate look-ahead bias. MCP integration enables LLM-powered queries against structured fundamental data. Replaces the "scrape EDGAR → parse → clean → pray it's correct" workflow with a single API call.
+
+---
+
+## PERSONA 8: Head of AI / Head of Technology / Chief Data Officer
+**AKA:** CTO, Chief Data Officer, Head of Data Science, VP of Technology, Head of Research Infrastructure, Head of Data Engineering, Head of Quantitative Technology, Director of Technology
+
+**Description:** Technology and data infrastructure leaders who evaluate, build, and maintain the data/tech stack powering the investment team. They make build-vs-buy decisions for data pipelines, manage vendor relationships, oversee API integrations, and lead LLM/AI adoption for investment research workflows. They balance engineering resources between maintaining internal systems and integrating external tools.
+
+**Challenges:**
+- Build vs. buy decisions — evaluating whether to build internal data extraction pipelines or purchase vendor solutions; internal builds routinely expand from 6-month estimates to multi-year commitments due to edge cases in financial document parsing
+- Data quality standards — ensuring point-in-time accuracy, eliminating look-ahead bias, maintaining 99%+ thresholds across thousands of companies
+- Integration complexity — managing API integrations across Bloomberg, Capital IQ, FactSet, and custom systems with inconsistent schemas
+- Data normalization burden — handling XBRL extensions and non-standard financial statement line items across industries
+- Reducing engineering burden — teams constantly maintaining EDGAR scrapers, dealing with parsing failures on restatements, footnotes, and table formats
+- LLM/AI adoption — enabling investment teams to leverage Claude/OpenAI for research while ensuring data accuracy (LLMs hallucinate financial data ~50% of the time without structured sources)
+- Scaling infrastructure without proportional headcount increases
+
+**Requirements:**
+- API-first architecture with comprehensive documentation, SDK support, and clear versioning
+- Structured, standardized output — consistent taxonomy across companies, machine-readable JSON/CSV
+- Data quality guarantees — published accuracy rates (99%+), QA processes, validation checks
+- Point-in-time data — no look-ahead bias for backtesting integrity
+- Real-time webhooks — instant notifications on new filings, no polling required
+- LLM/AI readiness — MCP support for Claude/OpenAI, native agentic workflow integration
+- Clear ROI vs. internal build cost — pricing that justifies replacing 2-3 FTE of scraper maintenance
+
+**Key Quote:**
+> "We've looked at building this ourselves three times. Each time, the edge cases around non-standard table formats and restatements push it from a 6-month project to a multi-year engineering commitment. At some point you have to ask whether maintaining an internal EDGAR scraper is really where our engineering talent should spend their time."
+
+**Current Alternatives:** Internal engineering teams building custom EDGAR scrapers, Bloomberg Terminal API (expensive per-seat), Capital IQ feeds (significant normalization needed), FactSet via API (integration overhead), open-source NLP projects for parsing 10-Ks (high maintenance, accuracy issues), XBRL direct from SEC (free but requires extensive parsing infrastructure)
+
+**Sample Prospects:** Point72, Citadel, Two Sigma, Millennium Management, Balyasny Asset Management, Bridgewater Associates, Man Group / AHL, Marshall Wace, ExodusPoint, Squarepoint Capital, D.E. Shaw, Schonfeld Strategic Advisors
+
+**Daloopa Use Case:** Replaces months/years of internal engineering — no more maintaining EDGAR parsers or debugging extraction failures on edge cases. API-first with 8 endpoints reduces integration time from months to weeks. MCP integration enables agentic research workflows with Claude/OpenAI without custom connector development. 1,200+ taxonomy eliminates normalization work. Webhooks feed event-driven architectures. 99%+ accuracy reduces QA burden. Clear ROI: typically replaces 2-3 FTE of data engineering ($300K-$600K annually) plus analyst time savings of ~2 days per analyst per earnings season.
+
+---
+
 ## Apollo Targeting Summary by Persona
 
 | Persona | Job Titles to Search | Sequence |
 |---|---|---|
-| L/S HF Analyst | Analyst, Research Analyst, Senior Analyst, Associate, Senior Associate | Sequence 1 (Analyst) |
-| Long Biased HF Analyst | Analyst, Research Analyst, Senior Analyst, Associate | Sequence 1 (Analyst) |
-| Mutual Fund Analyst | Analyst, Research Analyst, Associate | Sequence 1 (Analyst) |
-| Sellside / ER Analyst | Equity Research Analyst, Research Associate, VP Research | Sequence 1 (Analyst) |
+| L/S HF Analyst | Analyst, Research Analyst, Senior Analyst, Associate, Senior Associate | **Sequence 1A (L/S Analyst)** |
+| Long Biased HF Analyst | Analyst, Research Analyst, Senior Analyst, Associate | **Sequence 1B (Long Biased Analyst)** |
+| Mutual Fund Analyst | Analyst, Research Analyst, Associate | **Sequence 1C (Mutual Fund Analyst)** |
+| Sellside / ER Analyst | ~~OUT OF SCOPE~~ | N/A |
 | L/S PM / CIO / DoR | Portfolio Manager, CIO, Director of Research, Partner, Principal | Sequence 2 (PM) / Sequence 3 (DoR) |
 | Long Biased PM / CIO / DoR | Portfolio Manager, CIO, Director of Research, Partner | Sequence 2 (PM) / Sequence 3 (DoR) |
-| Quant / Macro | Quantitative Analyst, Quant Researcher, Macro Strategist | Sequence 5 (Quant/Macro) |
-| Head of AI / Tech | Head of AI, CTO, Head of Data, Head of Technology | Sequence 4 (Head of AI) |
+| Quant / Macro | Quantitative Analyst, Quant Researcher, Macro Strategist, Systematic Trader, Data Scientist | Sequence 5 (Quant/Macro) |
+| Head of AI / Tech | Head of AI, CTO, CDO, Head of Data, Head of Technology, VP Technology, Head of Data Engineering | Sequence 4 (Head of AI) |
