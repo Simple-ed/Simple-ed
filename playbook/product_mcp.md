@@ -25,13 +25,6 @@ Daloopa's MCP allows best-in-class fundamental data to be flexibly and securely 
 4. **Saves engineering time** — no need to build custom data connectors for AI tools
 5. **Keyword Search (beta)** — search across filings programmatically
 
-### Available Webinars (on demand):
-- Private Markets
-- Investment Banking
-- Buyside Equity Analysts
-- Long-Only Analysts
-- Equity Research Analysts
-
 ---
 
 ## MCP vs. API

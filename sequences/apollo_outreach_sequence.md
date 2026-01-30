@@ -52,19 +52,19 @@ For every **Step 1** (opening email), test three subject line variants:
 
 - **Subject A:** Curiosity / context-driven (personalized to prospect's situation)
 - **Subject B:** `Meeting Request | {{sender_first_name}} // {{first_name}}` (direct, professional, pattern-interrupt)
-- **Subject C:** Internal camo — 2 words, Title Case, looks like an internal email (Lavender data: 60% more opens)
+- **Subject C:** Internal camo — 2 words, Title Case, looks like an internal email — 60% more opens
 
-### Research-Backed Subject Line Rules (from Lavender, Berman, Braun, Coleman, 2025 data):
-- **2 words is optimal** — 60% more opens than 5-word subjects (Lavender, millions of emails analyzed)
-- **Title Case** outperforms lowercase by 30% (Lavender)
-- **No questions** in subject lines — hurts open rate by 56% (Lavender)
-- **No numbers** in subject lines — hurts open rate by 46% (Lavender)
-- **No punctuation** — hurts open rate by 36% (Lavender)
-- **First name in subject is debated** — Lavender says -12% replies, but 2025 aggregated data says +31% opens. Test both.
-- **"Internal camo"** — make subject look like it came from inside their company, not a sales email (Lavender)
-- **First line of body matters more than subject** for reply rates (Berman)
-- **Best send time:** Thursday 9-11 AM ET = 44% open rate (2025 data)
-- **"voicemail"** as a subject gets 40% response when paired with an actual voicemail left (Braun)
+### Subject Line Rules
+- **2 words is optimal** — 60% more opens than 5-word subjects
+- **Title Case** outperforms lowercase by 30%
+- **No questions** in subject lines — hurts open rate by 56%
+- **No numbers** in subject lines — hurts open rate by 46%
+- **No punctuation** — hurts open rate by 36%
+- **First name in subject is debated** — some data says -12% replies, other data says +31% opens. Test both.
+- **"Internal camo"** — make subject look like it came from inside their company, not a sales email
+- **First line of body matters more than subject** for reply rates
+- **Best send time:** Thursday 9-11 AM ET = 44% open rate
+- **"voicemail"** as a subject gets 40% response when paired with an actual voicemail left
 
 ---
 
@@ -74,7 +74,7 @@ For every **Step 1** email, test two body styles:
 
 - **Body Style A: "Problem-Agitate-Solve" (PAS)** — 4-6 sentences. Opens with personalized observation, names the pain, presents solution, asks for meeting. Establishes credibility and context. Best for prospects who need to understand *why* before they engage.
 
-- **Body Style B: "3-Line Sniper"** — 3 sentences max, under 50 words total. Personalized opener → one-line value prop → soft CTA. No bullet points, no explanation. Creates curiosity gap — the prospect has to reply or take the meeting to learn more. Based on Lavender/Berman data: emails under 75 words get 2x reply rates.
+- **Body Style B: "3-Line Sniper"** — 3 sentences max, under 50 words total. Personalized opener → one-line value prop → soft CTA. No bullet points, no explanation. Creates curiosity gap — the prospect has to reply or take the meeting to learn more. Emails under 75 words get 2x reply rates.
 
 Split 50/50 in Apollo. After 200+ sends per variant, compare **reply rates** (not just opens). Kill the loser, scale the winner.
 

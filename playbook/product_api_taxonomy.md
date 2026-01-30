@@ -37,11 +37,3 @@ Standardized way to fetch similar datapoints across companies, enabling:
 6. **MCP integration** — for teams building AI/LLM-powered research tools
 
 ---
-
-## External Resources:
-- API One Pager (including Taxonomy, Document Access, Keyword Search)
-- API Knowledge Base Documentation (auth, endpoints, webhooks, best practices)
-- Sample output: TSLA.csv from "GET Fetch Datasheet in CSV Format"
-- Daloopa API Webpage (including Taxonomy)
-- Taxonomy Guidance and Documentation
-- Cruise Line Taxonomy example

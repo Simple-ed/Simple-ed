@@ -1,6 +1,6 @@
-# Daloopa Outreach System
+# Outbound Strategy — Buy-Side Investment Firms
 
-Sales outreach playbook, Apollo sequences, and target account data for Daloopa's buy-side prospecting.
+Apollo sequences, target personas, and prospecting playbook for cold email and LinkedIn outreach into buy-side accounts.
 
 ---
 
@@ -15,10 +15,10 @@ Sales outreach playbook, Apollo sequences, and target account data for Daloopa's
   apollo_outreach_sequence.md   7 sequences with A/B/C subject lines + A/B body copy
 
 /playbook/                 Sales playbook and reference docs
-  personas.md                8 personas (6 active, 1 out of scope, detailed profiles)
+  personas.md                8 target personas with profiles, challenges, and use cases
   prospecting_playbook.md    Target criteria, job titles, contact priority framework
   analyst_schedule_and_timing.md  Analyst workday, earnings season timing, channel strategy
-  product_core.md            Daloopa product overview (Excel Add-In, Hub, accuracy)
+  product_core.md            Product overview (Excel Add-In, Hub, accuracy)
   product_api_taxonomy.md    API endpoints, Webhooks, 1,200+ Taxonomy metrics
   product_mcp.md             MCP (Model Context Protocol) for LLM integration
 ```
@@ -59,7 +59,7 @@ All sequences include A/B/C subject line testing and A/B body copy testing (PAS 
 ## Key Rules
 
 - **Buy-side only** -- sellside is excluded from all sequences and targeting
-- **No Daloopa branding in subject lines** -- use curiosity, internal camo, or Meeting Request format
+- **No product branding in subject lines** -- use curiosity, internal camo, or Meeting Request format
 - **Weekends over Monday mornings** -- Saturday 8-10 AM, Sunday 6-8 PM during earnings season
 - **Quant/Macro is separate** -- any title containing "Quant" or "Macro" goes to Sequence 5 only
 - **Personalize before enrolling** -- ADV brochure, company website, LinkedIn research required

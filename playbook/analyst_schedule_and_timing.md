@@ -1,5 +1,4 @@
 # Analyst Schedule & Prospecting Timing Strategy
-## Source: Thomas Li / Rieve MacEwen
 
 ---
 
@@ -24,7 +23,7 @@
 
 ---
 
-## Channel Strategy & Timing (Rieve's Takeaways)
+## Channel Strategy & Timing
 
 ### Cold Calls & Demos
 - **Best window: 11:00 AM - 2:00 PM** (downtime)

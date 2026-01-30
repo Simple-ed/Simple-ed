@@ -55,8 +55,3 @@ Allows analysts to update their models with the click of a button whenever new d
 4. **Unparalleled data accuracy** — quarterly average accuracy rate of over 99%.
 
 ---
-
-## Contact
-- Email: hello@daloopa.com
-- Website: daloopa.com
-- Address: 693 Fifth Avenue, 13th Floor, New York, NY 10022

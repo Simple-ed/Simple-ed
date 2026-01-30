@@ -1,5 +1,4 @@
 # Daloopa Prospecting Playbook
-## Source: Internal Training Notes (Updated March 2024)
 
 ---
 
