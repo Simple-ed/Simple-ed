@@ -10,11 +10,13 @@
 - **Has ADV/Website:** Prioritize accounts with ADV brochure and domain in broker_adv_links.csv — these can be personalized
 
 ### Account Tiering:
-| Tier | Definition | Examples | Action |
-|------|-----------|----------|--------|
-| **Tier 1** | Existing customer relationships, warm intro possible, or known pain point | Point72, Citadel, Cadian, XN, Thrivent | Multi-thread aggressively — analyst + PM + DoR |
-| **Tier 2** | Named accounts with 10+ contacts, ADV/website available | Millennium, Balyasny, ExodusPoint, Tiger Global, Lone Pine | Full sequence enrollment with personalization |
-| **Tier 3** | Named accounts with fewer contacts or limited research available | Smaller funds on target list | Standard sequence, lighter personalization |
+All accounts in your book are new business — cold outreach only. Tier based on size and researchability.
+
+| Tier | Definition | Examples from Book | Action |
+|------|-----------|-------------------|--------|
+| **Tier 1** | High contact count (10+), ADV/website available, clear fund strategy identifiable | CPP Investments, King Street, Dimension Kemper, Aristeia, Alision, Fisher Investments | Multi-thread — analyst + PM + DoR. Full personalization from ADV + website + LinkedIn. |
+| **Tier 2** | Moderate contact count (3-10), some research available | Sachem Head, Long Pond, Hound Partners, Engine No. 1, Avala Global, Voss Capital | Full sequence enrollment with personalization. Single or double thread. |
+| **Tier 3** | Low contact count (1-2), limited research available | Smaller funds with 0-1 contacts and no ADV/website | Single sequence enrollment. Lighter personalization — LinkedIn only if ADV unavailable. |
 
 ---
 
@@ -75,7 +77,7 @@
 
 ## Multi-Threading Strategy
 
-For Tier 1 and Tier 2 accounts, enroll multiple contacts simultaneously:
+For Tier 1 and Tier 2 accounts with enough contacts, enroll multiple people simultaneously to create internal buzz:
 
 | Account Type | Thread 1 | Thread 2 | Thread 3 |
 |-------------|----------|----------|----------|
@@ -97,7 +99,7 @@ Before adding any contact to a sequence, complete this:
 
 - [ ] **ADV Brochure** (from broker_adv_links.csv) — AUM, strategy, team size, sector focus
 - [ ] **Company Website** (from broker_adv_links.csv) — investment philosophy, portfolio focus, tech signals
-- [ ] **LinkedIn** — role, tenure, previous firms (former customer?), sector coverage, recent activity
+- [ ] **LinkedIn** — role, tenure, previous firms (did they come from a firm that uses the product?), sector coverage, recent activity
 - [ ] **Apollo custom variables populated:**
   - `{{custom1}}` = Sector coverage or strategy
   - `{{custom2}}` = Specific observation from research

@@ -21,7 +21,7 @@
 **Key Quote:**
 > "I hate to admit it, but I dislike writing earnings previews and postviews. They take a long time, and are glorified summaries of what has happened. The faster I can get my model updated the faster I can write a postview."
 
-**Current Customers:** Point72, Citadel/Surveyor/Ashler, Cadian
+**Reference Logos (not in your book):** Point72, Citadel/Surveyor/Ashler, Cadian
 
 **Sample Prospects:** Millennium, Balyasny, ExodusPoint, Cinctive, Crestline
 
@@ -49,7 +49,7 @@
 **Key Quote:**
 > "I need to have a good understanding of an industry before I look at a business. Ideally I would have industry models built and maintained, but they take too long so I wait for the next quarter to do it…"
 
-**Current Customers:** XN
+**Reference Logos (not in your book):** XN
 
 **Sample Prospects:** Tiger Global, Lone Pine
 
@@ -72,7 +72,7 @@
 **Key Quote:**
 > "I always feel that the HFs get more resources than I do. The playing field isn't fair. I wish I had their armies of analysts."
 
-**Current Customers:** Thrivent
+**Reference Logos (not in your book):** Thrivent
 
 **Sample Prospects:** Franklin Templeton, Fidelity, Vanguard, Invesco, Blackrock, Charles Schwab, Capital Group
 
@@ -82,7 +82,7 @@
 
 > **NOTE: NOT IN SCOPE.** Daloopa's current outreach focuses exclusively on buy-side accounts. Sellside is excluded from all Apollo sequences and target account lists. Keeping this persona for reference only.
 
-**Current Customers:** FTPartners
+**Reference Logos (not in your book):** FTPartners
 
 **Sample Prospects (out of scope):** JP Morgan, BoA, Goldman Sachs, Morgan Stanley, Jefferies
 
@@ -104,7 +104,7 @@
 **Key Quote:**
 > "My analysts are good at tracking companies, but it is my job to track industry movements. I also need them to move faster through models so we can spend more time actually thinking about the companies and the space."
 
-**Current Customers:** Point72, Citadel/Surveyor/Ashler, Cadian
+**Reference Logos (not in your book):** Point72, Citadel/Surveyor/Ashler, Cadian
 
 ---
 
@@ -126,7 +126,7 @@
 **Key Quote:**
 > "I need to look good in front of LPs. Part of how I do that is to show off the level of technology, process, and sophistication of our product. My LPs love charts that tell a story, the more industry level charts I can put together and update, the better I look, the more money we raise."
 
-**Current Customers:** XN
+**Reference Logos (not in your book):** XN
 
 ---
 

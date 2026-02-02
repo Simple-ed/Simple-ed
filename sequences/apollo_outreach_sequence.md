@@ -26,11 +26,11 @@ For every prospect, gather the following before they enter a sequence:
 
 ### From LinkedIn (prospect-level):
 - **Current role and tenure** — how long at this firm
-- **Previous firms** — did they come from a Daloopa customer? (Point72, Citadel, Cadian, XN, Thrivent, FTPartners)
+- **Previous firms** — did they come from a reference account? (Point72, Citadel, Cadian, XN, Thrivent, FTPartners)
 - **Education** — finance vs. CS/engineering background shapes messaging
 - **Recent posts or activity** — anything to reference as an opener
 - **Sector coverage** — often listed in their headline or summary
-- **Connections in common** — warm intro opportunity
+- **Connections in common** — reference in outreach if relevant
 
 ### Custom Apollo Variables:
 | Variable | Description | Example |
