@@ -21,8 +21,6 @@
 **Key Quote:**
 > "I hate to admit it, but I dislike writing earnings previews and postviews. They take a long time, and are glorified summaries of what has happened. The faster I can get my model updated the faster I can write a postview."
 
-**Reference Logos (not in your book):** Point72, Citadel/Surveyor/Ashler, Cadian
-
 **Sample Prospects:** Millennium, Balyasny, ExodusPoint, Cinctive, Crestline
 
 ---
@@ -49,9 +47,7 @@
 **Key Quote:**
 > "I need to have a good understanding of an industry before I look at a business. Ideally I would have industry models built and maintained, but they take too long so I wait for the next quarter to do it…"
 
-**Reference Logos (not in your book):** XN
-
-**Sample Prospects:** Tiger Global, Lone Pine
+**Sample Prospects:** Tiger Global, Lone Pine, Coatue, Viking, Whale Rock
 
 ---
 
@@ -72,8 +68,6 @@
 **Key Quote:**
 > "I always feel that the HFs get more resources than I do. The playing field isn't fair. I wish I had their armies of analysts."
 
-**Reference Logos (not in your book):** Thrivent
-
 **Sample Prospects:** Franklin Templeton, Fidelity, Vanguard, Invesco, Blackrock, Charles Schwab, Capital Group
 
 ---
@@ -81,8 +75,6 @@
 ## PERSONA 4: Equity Research / Sellside Analyst
 
 > **NOTE: NOT IN SCOPE.** Daloopa's current outreach focuses exclusively on buy-side accounts. Sellside is excluded from all Apollo sequences and target account lists. Keeping this persona for reference only.
-
-**Reference Logos (not in your book):** FTPartners
 
 **Sample Prospects (out of scope):** JP Morgan, BoA, Goldman Sachs, Morgan Stanley, Jefferies
 
@@ -104,8 +96,6 @@
 **Key Quote:**
 > "My analysts are good at tracking companies, but it is my job to track industry movements. I also need them to move faster through models so we can spend more time actually thinking about the companies and the space."
 
-**Reference Logos (not in your book):** Point72, Citadel/Surveyor/Ashler, Cadian
-
 ---
 
 ## PERSONA 6: Long Biased PM / CIO / Director of Research
@@ -125,8 +115,6 @@
 
 **Key Quote:**
 > "I need to look good in front of LPs. Part of how I do that is to show off the level of technology, process, and sophistication of our product. My LPs love charts that tell a story, the more industry level charts I can put together and update, the better I look, the more money we raise."
-
-**Reference Logos (not in your book):** XN
 
 ---
 
@@ -156,7 +144,7 @@
 
 **What They Use Today:** Bloomberg API, Capital IQ/Compustat, FactSet APIs, internal EDGAR scrapers, WRDS academic datasets, custom Python parsers (sec-api.io)
 
-**Sample Prospects:** Two Sigma, D.E. Shaw, AQR Capital Management, Bridgewater Associates, Citadel (Quantitative Strategies), Man Group, Millennium (systematic pods), PDT Partners, Voleon Group, WorldQuant, Element Capital
+**Sample Prospects:** Two Sigma, D.E. Shaw, AQR Capital Management, Bridgewater Associates, Man Group, Millennium (systematic pods), PDT Partners, Voleon Group, WorldQuant, Element Capital
 
 **How We Solve It:** API-first with 8 endpoints into Python/R pipelines. Webhook alerts on new filings for zero-latency signal generation. 1,200+ standardized taxonomy across 5,000+ tickers. 99%+ accuracy with point-in-time integrity eliminates look-ahead bias. MCP integration for LLM-powered queries. Replaces the scrape-parse-clean-pray workflow with a single API call.
 
@@ -190,7 +178,7 @@
 
 **What They Use Today:** Internal EDGAR scrapers, Bloomberg Terminal API, Capital IQ feeds, FactSet via API, open-source NLP parsing projects, XBRL direct from SEC
 
-**Sample Prospects:** Point72, Citadel, Two Sigma, Millennium Management, Balyasny Asset Management, Bridgewater Associates, Man Group / AHL, Marshall Wace, ExodusPoint, Squarepoint Capital, D.E. Shaw, Schonfeld Strategic Advisors
+**Sample Prospects:** Two Sigma, Millennium Management, Balyasny Asset Management, Bridgewater Associates, Man Group / AHL, Marshall Wace, ExodusPoint, Squarepoint Capital, D.E. Shaw, Schonfeld Strategic Advisors
 
 **How We Solve It:** Replaces internal EDGAR parsers and extraction debugging. 8 API endpoints reduce integration from months to weeks. MCP integration enables agentic research with Claude/OpenAI out of the box. 1,200+ taxonomy eliminates normalization work. Webhooks feed event-driven architectures. 99%+ accuracy reduces QA burden. ROI: replaces 2-3 FTE of data engineering ($300K-$600K/yr) plus ~2 days per analyst per earnings season.
 

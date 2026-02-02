@@ -26,7 +26,7 @@ For every prospect, gather the following before they enter a sequence:
 
 ### From LinkedIn (prospect-level):
 - **Current role and tenure** — how long at this firm
-- **Previous firms** — did they come from a reference account? (Point72, Citadel, Cadian, XN, Thrivent, FTPartners)
+- **Previous firms** — did they come from a firm that already uses the product? If so, reference "your past company" not the firm name
 - **Education** — finance vs. CS/engineering background shapes messaging
 - **Recent posts or activity** — anything to reference as an opener
 - **Sector coverage** — often listed in their headline or summary
@@ -42,7 +42,7 @@ For every prospect, gather the following before they enter a sequence:
 | `{{custom1}}` | Sector coverage or strategy (from ADV/LinkedIn) | healthcare equities |
 | `{{custom2}}` | Specific observation (from LinkedIn/ADV/website) | your TMT coverage |
 | `{{custom3}}` | AUM or team size (from ADV) | $2.4B AUM |
-| `{{custom4}}` | Previous firm or mutual connection | Point72 alum |
+| `{{custom4}}` | Previous firm or mutual connection | your previous firm |
 
 ---
 
@@ -584,9 +584,9 @@ If any of that would be useful, just let me know a ticker and I'll pull it toget
 ## Apollo Filter Notes
 
 ### Analyst Sequence Routing (1A / 1B / 1C):
-- **Sequence 1A (L/S Analyst):** Target accounts = multi-manager pods, L/S equity hedge funds, market neutral funds. Look for: Millennium, Balyasny, Point72, Citadel/Surveyor, ExodusPoint, Cinctive, Crestline, Schonfeld. High model count, high turnover.
+- **Sequence 1A (L/S Analyst):** Target accounts = multi-manager pods, L/S equity hedge funds, market neutral funds. High model count, high turnover.
 - **Sequence 1B (Long Biased Analyst):** Target accounts = concentrated, long-biased, growth-oriented funds. Look for: Tiger Global, Lone Pine, Coatue, Viking, Whale Rock, Altimeter, Dragoneer. Fewer models, deeper complexity.
-- **Sequence 1C (Mutual Fund Analyst):** Target accounts = mutual funds, long-only asset managers. Look for: Franklin Templeton, Fidelity, Vanguard, Invesco, BlackRock, Capital Group, T. Rowe Price, Schwab, Thrivent. Lower model intensity, sell-side model users.
+- **Sequence 1C (Mutual Fund Analyst):** Target accounts = mutual funds, long-only asset managers. Look for: Franklin Templeton, Fidelity, Vanguard, Invesco, BlackRock, Capital Group, T. Rowe Price, Schwab. Lower model intensity, sell-side model users.
 - **If unclear:** Default to 1A (L/S) for hedge funds, 1C for asset managers.
 
 ### Quant/Macro Sequence (5):
